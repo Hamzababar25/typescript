@@ -7,3 +7,17 @@ var arrays;
 arrays = ["hamza", 23, false,];
 arrays.push("sd");
 console.log(arrays);
+//agr ham jo length hm ne define ki ha us se uper push kre gein to ho jae gi pr agr ham jo defined length ha usko sequence wise sahi se nhi likhein gei
+//to errror dega
+var arrayss;
+arrayss = ["hamza", "jdn", 23, false,];
+arrays.push("sd");
+console.log(arrayss);
+//error ho rhe 
+// Readonly Tuple
+// A good practice is to make your tuple readonly.
+// Tuples only have strongly defined types for the initial values:
+var numbersss;
+numbersss = ["adcadv", "ascfc", "ascc"];
+numbersss.push("acac");
+//we can not push as it is read only
